@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;424;454;500;600;700&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Gli Astri di San Lorenzo</title>
+</head>
+
+<body>
+    <h1>Gli Astri di San Lorenzo</h1>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
+        <a class="navbar-brand" href="#"><img src="img/astri.png" alt="astri"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#idea">L'Idea</a>
+                <!--
+                <a class="nav-link" href="#">I Servizi</a>-->
+                <a class="nav-link" href="proposte.html">Le Nostre Proposte</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="#box_listino">Prezzi</a>
+                <a class="nav-link" href="#box_mappa" tabindex="-1" aria-disabled="true">Dove siamo</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- CAROUSEL -->
+    <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--<div id="onback">
+        <p id="intro"><strong>Gli Astri di San Lorenzo</strong> ti danno il benvenuto per offrirti un'esperienza di quete e relax in mezzo al verde.</p>
+    </div>-->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+            <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2500">
+                <img src="img/home.jpg" class="d-block w-100" alt="home">
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <img src="img/cooking.jpg" class="d-block w-100" alt="cooking room">
+            </div>
+            <div class="carousel-item" data-interval="2500">
+                <img src="img/bed.jpg" class="d-block w-100" alt="bed">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <hr>
+
+    <section id="idea" class="box-idea">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="font_title">
+                        <!--La nostra idea di accoglienza mette l'ospite al centro delle nostre proposte.-->
+                        <strong>Gli Astri di San Lorenzo</strong> ti danno il benvenuto per offrirti un'esperienza di quiete e relax in mezzo al verde.
+                    </h3>
+                </div>
+                <div id="elenco">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <ul>
+                                <li>Silenzio</li>
+                                <li>Natura</li>
+                                <li>Riposo</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="img/entrance.jpg" alt="Appartamento">
+                        </div>
+                        <div class="col-lg-3">
+                            <ul>
+                                <li>Silenzio</li>
+                                <li>Natura</li>
+                                <li>Riposo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <!-- Gallery -->
+
+    <section id="i_gallery">
+        <div cass="row">
+            <div class="col-10 float-left">
+                <img src="img/accesso.jpg" alt="accesso">
+                <img src="img/cooking.jpg" alt="cucina">
+                <img src="img/bed.jpg" alt="camera">
+                <img src="img/home.jpg" alt="accesso">
+                <img src="img/terrazzo.jpg" alt="terrazzo">
+                <img src="img/cameretta.JPG" alt="cameretta">
+            </div>
+            <div class="col-2 float-right">
+                <a href="gallery.html"><button>Vai alla nostra<br>Gallery</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <hr>
+
+    <div id="box_listino">
+        <div class="container">
+            <h3 class="font_title">Il Nostro Listino</h3>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Ospiti</th>
+                                <th scope="col">Prezzo x Notte</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>1 ospite</td>
+                                <td>40€</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>2 ospiti</td>
+                                <td>80€</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>dal terzo ospite</td>
+                                <td>20€</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="box_mappa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11210.504030975304!2d11.8130189!3d45.37654145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ae50c42cbfd3418!2sGli%20Astri%20di%20San%20Lorenzo!5e0!3m2!1sit!2sit!4v1606644911839!5m2!1sit!2sit" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <hr>
+
+
+    <div id="box_contatti">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="contatti">
+                        <h4>Gli Astri di San Lorenzo</h4>
+                        <p>Via San Lorenzo, 45 Bis<br>35031 - Abano Terme(PD)<br>Tel. +393332599946<br>E-Mail:<a href="mailto:sanlorenzo@gmail.com"> sanlorenzo@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <p class="par_form">Iscriviti alla nostra mailing list per rimanere sempre informato sulle nostre attività e proposte di soggiorno o scrivici per avere informazioni o prenotare il tuo periodo di relax a Gli Astri di San Lorenzo</p>
+                    <form action="#" name="contatti" method="post">
+                        <p>
+                            <label name="nome">Nome:</label>
+                            <input class="float-right" type="text" name="nome" id="nome" placeholder="Nome">
+                        </p>
+                        <p>
+                            <label name="email">Email:</label>
+                            <input class="float-right" type="email" name="email" id="email" placeholder="Email">
+                        </p>
+                        <p>
+                            <label id="msg" for="messaggio">Messaggio:</label>
+                            <textarea class="float-right" name="messaggio" id="messaggio" placeholder="Messaggio" required></textarea>
+                        </p>
+                        <div class="clearfix"></div>
+                        <p>
+                            <input type="submit" value="Invia">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="box_foot">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p>Copyright: Riccardo Ziglio 2020 feat Mind Accademy - P.I.299232124848346</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul>
+                            <li>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.airbnb.it/rooms/33336021?source_impression_id=p3_1607191342_EYb%2FUl7Mfw8Udhgz&guests=1&adults=1" target="_blank"><i class="fab fa-airbnb"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
